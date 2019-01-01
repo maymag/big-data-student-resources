@@ -1,3 +1,15 @@
+# The Xpath expression to find the title of a submission in our page is: 
+# //article/header/h2/a/@title. In English, this means:
+
+# //article: Locate every article node in the page.
+# /header: Find the header node nested directly underneath the article node.
+# /h2: Find the h2 node nested directly underneath the header node.
+# /a: Find the a node nested directly underneath the h2 node.
+# /@title: Find the title attribute within the a node.
+
+
+
+
 # Importing in each cell because of the kernel restarts.
 import scrapy
 import re
